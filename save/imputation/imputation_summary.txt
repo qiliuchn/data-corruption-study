@@ -1,0 +1,1545 @@
+# imputation_noise_level = -1 means no imputation, just leave the data missing
+# corruption_ratio = 0.x, imputation_noise_level = 0.0 means perfect imputation
+
+corruption_ratio = 0.1, imputation_noise_level = 0.0
+   task     score
+0  cola  0.583446
+1  sst2  0.919725
+2  mrpc  0.860294
+3  stsb  0.896988
+4   qqp  0.909721
+5  mnli  0.843709
+6  qnli  0.908658
+7   rte  0.646209
+8  wnli  0.563380
+GLUE score: 0.7925
+
+corruption_ratio = 0.2, imputation_noise_level = 0.0
+   task     score
+0  cola  0.583446
+1  sst2  0.919725
+2  mrpc  0.860294
+3  stsb  0.896988
+4   qqp  0.909721
+5  mnli  0.843709
+6  qnli  0.908658
+7   rte  0.646209
+8  wnli  0.563380
+GLUE score: 0.7925
+
+corruption_ratio = 0.3, imputation_noise_level = 0.0
+   task     score
+0  cola  0.583446
+1  sst2  0.919725
+2  mrpc  0.860294
+3  stsb  0.896988
+4   qqp  0.909721
+5  mnli  0.843709
+6  qnli  0.908658
+7   rte  0.646209
+8  wnli  0.563380
+GLUE score: 0.7925
+
+corruption_ratio = 0.4, imputation_noise_level = 0.0
+   task     score
+0  cola  0.583446
+1  sst2  0.919725
+2  mrpc  0.860294
+3  stsb  0.896988
+4   qqp  0.909721
+5  mnli  0.843709
+6  qnli  0.908658
+7   rte  0.646209
+8  wnli  0.563380
+GLUE score: 0.7925
+
+corruption_ratio = 0.5, imputation_noise_level = 0.0
+   task     score
+0  cola  0.583446
+1  sst2  0.919725
+2  mrpc  0.860294
+3  stsb  0.896988
+4   qqp  0.909721
+5  mnli  0.843709
+6  qnli  0.908658
+7   rte  0.646209
+8  wnli  0.563380
+GLUE score: 0.7925
+
+corruption_ratio = 0.6, imputation_noise_level = 0.0
+   task     score
+0  cola  0.583446
+1  sst2  0.919725
+2  mrpc  0.860294
+3  stsb  0.896988
+4   qqp  0.909721
+5  mnli  0.843709
+6  qnli  0.908658
+7   rte  0.646209
+8  wnli  0.563380
+GLUE score: 0.7925
+
+corruption_ratio = 0.7, imputation_noise_level = 0.0
+   task     score
+0  cola  0.583446
+1  sst2  0.919725
+2  mrpc  0.860294
+3  stsb  0.896988
+4   qqp  0.909721
+5  mnli  0.843709
+6  qnli  0.908658
+7   rte  0.646209
+8  wnli  0.563380
+GLUE score: 0.7925
+
+corruption_ratio = 0.8, imputation_noise_level = 0.0
+   task     score
+0  cola  0.583446
+1  sst2  0.919725
+2  mrpc  0.860294
+3  stsb  0.896988
+4   qqp  0.909721
+5  mnli  0.843709
+6  qnli  0.908658
+7   rte  0.646209
+8  wnli  0.563380
+GLUE score: 0.7925
+
+corruption_ratio = 0.9, imputation_noise_level = 0.0
+   task     score
+0  cola  0.583446
+1  sst2  0.919725
+2  mrpc  0.860294
+3  stsb  0.896988
+4   qqp  0.909721
+5  mnli  0.843709
+6  qnli  0.908658
+7   rte  0.646209
+8  wnli  0.563380
+GLUE score: 0.7925
+
+corruption_ratio = 1.0, imputation_noise_level = 0.0
+   task     score
+0  cola  0.583446
+1  sst2  0.919725
+2  mrpc  0.860294
+3  stsb  0.896988
+4   qqp  0.909721
+5  mnli  0.843709
+6  qnli  0.908658
+7   rte  0.646209
+8  wnli  0.563380
+GLUE score: 0.7925
+
+
+
+corruption_ratio = 0.1, imputation_noise_level = -1.0
+   task     score
+0  cola  0.526242
+1  sst2  0.919725
+2  mrpc  0.833333
+3  stsb  0.880208
+4   qqp  0.904378
+5  mnli  0.839226
+6  qnli  0.911221
+7   rte  0.689531
+8  wnli  0.563380
+GLUE score: 0.7852
+
+corruption_ratio = 0.1, imputation_noise_level = 0.1
+   task     score
+0  cola  0.561658
+1  sst2  0.916284
+2  mrpc  0.845588
+3  stsb  0.888825
+4   qqp  0.908583
+5  mnli  0.845339
+6  qnli  0.911587
+7   rte  0.711191
+8  wnli  0.563380
+GLUE score: 0.7947
+
+corruption_ratio = 0.1, imputation_noise_level = 0.2
+   task     score
+0  cola  0.554824
+1  sst2  0.923165
+2  mrpc  0.860294
+3  stsb  0.887300
+4   qqp  0.907247
+5  mnli  0.839328
+6  qnli  0.913418
+7   rte  0.707581
+8  wnli  0.535211
+GLUE score: 0.7920
+
+corruption_ratio = 0.1, imputation_noise_level = 0.3
+   task     score
+0  cola  0.544254
+1  sst2  0.926606
+2  mrpc  0.860294
+3  stsb  0.886987
+4   qqp  0.906827
+5  mnli  0.839226
+6  qnli  0.909940
+7   rte  0.700361
+8  wnli  0.549296
+GLUE score: 0.7915
+
+corruption_ratio = 0.1, imputation_noise_level = 0.4
+   task     score
+0  cola  0.573689
+1  sst2  0.928899
+2  mrpc  0.848039
+3  stsb  0.882392
+4   qqp  0.907247
+5  mnli  0.841875
+6  qnli  0.911038
+7   rte  0.664260
+8  wnli  0.563380
+GLUE score: 0.7912
+
+corruption_ratio = 0.1, imputation_noise_level = 0.5
+   task     score
+0  cola  0.552425
+1  sst2  0.918578
+2  mrpc  0.852941
+3  stsb  0.888062
+4   qqp  0.906085
+5  mnli  0.837086
+6  qnli  0.911953
+7   rte  0.689531
+8  wnli  0.535211
+GLUE score: 0.7880
+
+corruption_ratio = 0.1, imputation_noise_level = 0.6
+   task     score
+0  cola  0.547818
+1  sst2  0.922018
+2  mrpc  0.855392
+3  stsb  0.881196
+4   qqp  0.904873
+5  mnli  0.833724
+6  qnli  0.911221
+7   rte  0.649819
+8  wnli  0.478873
+GLUE score: 0.7761
+
+corruption_ratio = 0.1, imputation_noise_level = 0.7
+   task     score
+0  cola  0.515445
+1  sst2  0.928899
+2  mrpc  0.838235
+3  stsb  0.877405
+4   qqp  0.902325
+5  mnli  0.838614
+6  qnli  0.906828
+7   rte  0.682310
+8  wnli  0.352113
+GLUE score: 0.7602
+
+corruption_ratio = 0.1, imputation_noise_level = 0.8
+   task     score
+0  cola  0.516439
+1  sst2  0.919725
+2  mrpc  0.833333
+3  stsb  0.875632
+4   qqp  0.902647
+5  mnli  0.836577
+6  qnli  0.908658
+7   rte  0.657040
+8  wnli  0.366197
+GLUE score: 0.7574
+
+corruption_ratio = 0.1, imputation_noise_level = 0.9
+   task     score
+0  cola  0.502001
+1  sst2  0.931193
+2  mrpc  0.852941
+3  stsb  0.881198
+4   qqp  0.902473
+5  mnli  0.835863
+6  qnli  0.906279
+7   rte  0.653430
+8  wnli  0.521127
+GLUE score: 0.7763
+
+corruption_ratio = 0.1, imputation_noise_level = 1.0
+   task     score
+0  cola  0.504316
+1  sst2  0.924312
+2  mrpc  0.860294
+3  stsb  0.877110
+4   qqp  0.900890
+5  mnli  0.830871
+6  qnli  0.905363
+7   rte  0.657040
+8  wnli  0.492958
+GLUE score: 0.7726
+
+
+corruption_ratio = 0.2, imputation_noise_level = -1.0
+   task     score
+0  cola  0.494477
+1  sst2  0.923165
+2  mrpc  0.835784
+3  stsb  0.873698
+4   qqp  0.896636
+5  mnli  0.830871
+6  qnli  0.903533
+7   rte  0.638989
+8  wnli  0.535211
+GLUE score: 0.7703
+
+corruption_ratio = 0.2, imputation_noise_level = 0.1
+   task     score
+0  cola  0.536662
+1  sst2  0.923165
+2  mrpc  0.867647
+3  stsb  0.892191
+4   qqp  0.907915
+5  mnli  0.839328
+6  qnli  0.914516
+7   rte  0.703971
+8  wnli  0.436620
+GLUE score: 0.7802
+
+corruption_ratio = 0.2, imputation_noise_level = 0.2
+   task     score
+0  cola  0.536662
+1  sst2  0.924312
+2  mrpc  0.860294
+3  stsb  0.884874
+4   qqp  0.905813
+5  mnli  0.836271
+6  qnli  0.912136
+7   rte  0.657040
+8  wnli  0.464789
+GLUE score: 0.7758
+
+corruption_ratio = 0.2, imputation_noise_level = 0.3
+   task     score
+0  cola  0.534564
+1  sst2  0.925459
+2  mrpc  0.828431
+3  stsb  0.879894
+4   qqp  0.903339
+5  mnli  0.836475
+6  qnli  0.909390
+7   rte  0.660650
+8  wnli  0.366197
+GLUE score: 0.7605
+
+corruption_ratio = 0.2, imputation_noise_level = 0.4
+   task     score
+0  cola  0.539388
+1  sst2  0.925459
+2  mrpc  0.830882
+3  stsb  0.880083
+4   qqp  0.903710
+5  mnli  0.830871
+6  qnli  0.911404
+7   rte  0.700361
+8  wnli  0.492958
+GLUE score: 0.7795
+
+corruption_ratio = 0.2, imputation_noise_level = 0.5
+   task     score
+0  cola  0.533950
+1  sst2  0.917431
+2  mrpc  0.833333
+3  stsb  0.871761
+4   qqp  0.901385
+5  mnli  0.833214
+6  qnli  0.908109
+7   rte  0.649819
+8  wnli  0.394366
+GLUE score: 0.7604
+
+corruption_ratio = 0.2, imputation_noise_level = 0.6
+   task     score
+0  cola  0.490077
+1  sst2  0.928899
+2  mrpc  0.808824
+3  stsb  0.871343
+4   qqp  0.898516
+5  mnli  0.832501
+6  qnli  0.907560
+7   rte  0.628159
+8  wnli  0.394366
+GLUE score: 0.7511
+
+corruption_ratio = 0.2, imputation_noise_level = 0.7
+   task     score
+0  cola  0.515323
+1  sst2  0.917431
+2  mrpc  0.840686
+3  stsb  0.863212
+4   qqp  0.896611
+5  mnli  0.830362
+6  qnli  0.907743
+7   rte  0.671480
+8  wnli  0.492958
+GLUE score: 0.7706
+
+corruption_ratio = 0.2, imputation_noise_level = 0.8
+   task     score
+0  cola  0.491279
+1  sst2  0.915138
+2  mrpc  0.776961
+3  stsb  0.860437
+4   qqp  0.893965
+5  mnli  0.828935
+6  qnli  0.900970
+7   rte  0.638989
+8  wnli  0.535211
+GLUE score: 0.7602
+
+corruption_ratio = 0.2, imputation_noise_level = 0.9
+   task     score
+0  cola  0.491107
+1  sst2  0.926606
+2  mrpc  0.764706
+3  stsb  0.849929
+4   qqp  0.894237
+5  mnli  0.825981
+6  qnli  0.897858
+7   rte  0.610108
+8  wnli  0.464789
+GLUE score: 0.7473
+
+corruption_ratio = 0.2, imputation_noise_level = 1.0
+   task     score
+0  cola  0.477905
+1  sst2  0.928899
+2  mrpc  0.791667
+3  stsb  0.849098
+4   qqp  0.892481
+5  mnli  0.824962
+6  qnli  0.903899
+7   rte  0.610108
+8  wnli  0.563380
+GLUE score: 0.7603
+
+
+corruption_ratio = 0.3, imputation_noise_level = -1.0
+   task     score
+0  cola  0.469402
+1  sst2  0.907110
+2  mrpc  0.772059
+3  stsb  0.849589
+4   qqp  0.886025
+5  mnli  0.823943
+6  qnli  0.898407
+7   rte  0.653430
+8  wnli  0.521127
+GLUE score: 0.7535
+
+corruption_ratio = 0.3, imputation_noise_level = 0.1
+   task     score
+0  cola  0.542127
+1  sst2  0.927752
+2  mrpc  0.843137
+3  stsb  0.889557
+4   qqp  0.904749
+5  mnli  0.840754
+6  qnli  0.912136
+7   rte  0.718412
+8  wnli  0.563380
+GLUE score: 0.7936
+
+corruption_ratio = 0.3, imputation_noise_level = 0.2
+  task     score
+0  cola  0.544352
+1  sst2  0.924312
+2  mrpc  0.833333
+3  stsb  0.879998
+4   qqp  0.904230
+5  mnli  0.839124
+6  qnli  0.909024
+7   rte  0.657040
+8  wnli  0.535211
+GLUE score: 0.7807
+
+corruption_ratio = 0.3, imputation_noise_level = 0.3
+   task     score
+0  cola  0.542004
+1  sst2  0.923165
+2  mrpc  0.843137
+3  stsb  0.876595
+4   qqp  0.898936
+5  mnli  0.837392
+6  qnli  0.904814
+7   rte  0.642599
+8  wnli  0.478873
+GLUE score: 0.7719
+
+corruption_ratio = 0.3, imputation_noise_level = 0.4
+   task     score
+0  cola  0.504961
+1  sst2  0.920872
+2  mrpc  0.803922
+3  stsb  0.872993
+4   qqp  0.900124
+5  mnli  0.828528
+6  qnli  0.904082
+7   rte  0.653430
+8  wnli  0.394366
+GLUE score: 0.7537
+
+corruption_ratio = 0.3, imputation_noise_level = 0.5
+   task     score
+0  cola  0.528618
+1  sst2  0.916284
+2  mrpc  0.830882
+3  stsb  0.865785
+4   qqp  0.894979
+5  mnli  0.828935
+6  qnli  0.902252
+7   rte  0.657040
+8  wnli  0.507042
+GLUE score: 0.7702
+
+corruption_ratio = 0.3, imputation_noise_level = 0.6
+   task     score
+0  cola  0.501933
+1  sst2  0.915138
+2  mrpc  0.786765
+3  stsb  0.859364
+4   qqp  0.892357
+5  mnli  0.826490
+6  qnli  0.904265
+7   rte  0.657040
+8  wnli  0.309859
+GLUE score: 0.7392
+
+corruption_ratio = 0.3, imputation_noise_level = 0.7
+   task     score
+0  cola  0.466391
+1  sst2  0.923165
+2  mrpc  0.784314
+3  stsb  0.839662
+4   qqp  0.892184
+5  mnli  0.820886
+6  qnli  0.900421
+7   rte  0.581227
+8  wnli  0.563380
+GLUE score: 0.7524
+
+corruption_ratio = 0.3, imputation_noise_level = 0.8
+   task     score
+0  cola  0.452962
+1  sst2  0.905963
+2  mrpc  0.774510
+3  stsb  0.851979
+4   qqp  0.888697
+5  mnli  0.819358
+6  qnli  0.901702
+7   rte  0.635379
+8  wnli  0.422535
+GLUE score: 0.7392
+
+corruption_ratio = 0.3, imputation_noise_level = 0.9
+   task     score
+0  cola  0.406306
+1  sst2  0.923165
+2  mrpc  0.747549
+3  stsb  0.848367
+4   qqp  0.884887
+5  mnli  0.814773
+6  qnli  0.893465
+7   rte  0.592058
+8  wnli  0.549296
+GLUE score: 0.7400
+
+corruption_ratio = 0.3, imputation_noise_level = 1.0
+   task     score
+0  cola  0.474810
+1  sst2  0.917431
+2  mrpc  0.747549
+3  stsb  0.834740
+4   qqp  0.883403
+5  mnli  0.808456
+6  qnli  0.886326
+7   rte  0.570397
+8  wnli  0.549296
+GLUE score: 0.7414
+
+
+corruption_ratio = 0.4, imputation_noise_level = -1.0
+   task     score
+0  cola  0.460924
+1  sst2  0.908257
+2  mrpc  0.754902
+3  stsb  0.820354
+4   qqp  0.871135
+5  mnli  0.809068
+6  qnli  0.883031
+7   rte  0.610108
+8  wnli  0.563380
+GLUE score: 0.7424
+
+corruption_ratio = 0.4, imputation_noise_level = 0.1
+   task     score
+0  cola  0.531935
+1  sst2  0.932339
+2  mrpc  0.852941
+3  stsb  0.886508
+4   qqp  0.905145
+5  mnli  0.842078
+6  qnli  0.911953
+7   rte  0.693141
+8  wnli  0.436620
+GLUE score: 0.7770
+
+corruption_ratio = 0.4, imputation_noise_level = 0.2
+   task     score
+0  cola  0.516439
+1  sst2  0.928899
+2  mrpc  0.801471
+3  stsb  0.876260
+4   qqp  0.901632
+5  mnli  0.835863
+6  qnli  0.904448
+7   rte  0.642599
+8  wnli  0.408451
+GLUE score: 0.7573
+
+corruption_ratio = 0.4, imputation_noise_level = 0.3
+   task     score
+0  cola  0.486709
+1  sst2  0.918578
+2  mrpc  0.838235
+3  stsb  0.871469
+4   qqp  0.898837
+5  mnli  0.830565
+6  qnli  0.904082
+7   rte  0.646209
+8  wnli  0.380282
+GLUE score: 0.7528
+
+corruption_ratio = 0.4, imputation_noise_level = 0.4
+   task     score
+0  cola  0.499239
+1  sst2  0.924312
+2  mrpc  0.754902
+3  stsb  0.866838
+4   qqp  0.896018
+5  mnli  0.827305
+6  qnli  0.900604
+7   rte  0.620939
+8  wnli  0.366197
+GLUE score: 0.7396
+
+corruption_ratio = 0.4, imputation_noise_level = 0.5
+   task     score
+0  cola  0.443946
+1  sst2  0.918578
+2  mrpc  0.767157
+3  stsb  0.842559
+4   qqp  0.891046
+5  mnli  0.821498
+6  qnli  0.899689
+7   rte  0.602888
+8  wnli  0.478873
+GLUE score: 0.7407
+
+corruption_ratio = 0.4, imputation_noise_level = 0.6
+   task     score
+0  cola  0.459233
+1  sst2  0.920872
+2  mrpc  0.806373
+3  stsb  0.838019
+4   qqp  0.889043
+5  mnli  0.818747
+6  qnli  0.904265
+7   rte  0.606498
+8  wnli  0.535211
+GLUE score: 0.7531
+
+corruption_ratio = 0.4, imputation_noise_level = 0.7
+   task     score
+0  cola  0.447911
+1  sst2  0.923165
+2  mrpc  0.750000
+3  stsb  0.835633
+4   qqp  0.884937
+5  mnli  0.812328
+6  qnli  0.893831
+7   rte  0.620939
+8  wnli  0.563380
+GLUE score: 0.7480
+
+corruption_ratio = 0.4, imputation_noise_level = 0.8
+   task     score
+0  cola  0.382936
+1  sst2  0.923165
+2  mrpc  0.747549
+3  stsb  0.845738
+4   qqp  0.880262
+5  mnli  0.807539
+6  qnli  0.887608
+7   rte  0.599278
+8  wnli  0.577465
+GLUE score: 0.7391
+
+corruption_ratio = 0.4, imputation_noise_level = 0.9
+   task     score
+0  cola  0.394442
+1  sst2  0.915138
+2  mrpc  0.710784
+3  stsb  0.780432
+4   qqp  0.876107
+5  mnli  0.802853
+6  qnli  0.885777
+7   rte  0.617329
+8  wnli  0.577465
+GLUE score: 0.7289
+
+corruption_ratio = 0.4, imputation_noise_level = 1.0
+   task     score
+0  cola  0.379832
+1  sst2  0.915138
+2  mrpc  0.745098
+3  stsb  0.786513
+4   qqp  0.871828
+5  mnli  0.793989
+6  qnli  0.881201
+7   rte  0.566787
+8  wnli  0.577465
+GLUE score: 0.7242
+
+
+corruption_ratio = 0.5, imputation_noise_level = -1.0
+   task     score
+0  cola  0.430751
+1  sst2  0.916284
+2  mrpc  0.740196
+3  stsb  0.815226
+4   qqp  0.866164
+5  mnli  0.789710
+6  qnli  0.869486
+7   rte  0.530686
+8  wnli  0.563380
+GLUE score: 0.7247
+
+corruption_ratio = 0.5, imputation_noise_level = 0.1
+   task     score
+0  cola  0.516246
+1  sst2  0.927752
+2  mrpc  0.852941
+3  stsb  0.882538
+4   qqp  0.902795
+5  mnli  0.840448
+6  qnli  0.911221
+7   rte  0.693141
+8  wnli  0.577465
+GLUE score: 0.7894
+
+corruption_ratio = 0.5, imputation_noise_level = 0.2
+   task     score
+0  cola  0.536662
+1  sst2  0.922018
+2  mrpc  0.833333
+3  stsb  0.880185
+4   qqp  0.900025
+5  mnli  0.835150
+6  qnli  0.905729
+7   rte  0.664260
+8  wnli  0.507042
+GLUE score: 0.7760
+
+corruption_ratio = 0.5, imputation_noise_level = 0.3
+   task     score
+0  cola  0.493805
+1  sst2  0.920872
+2  mrpc  0.825980
+3  stsb  0.876136
+4   qqp  0.893223
+5  mnli  0.829139
+6  qnli  0.902435
+7   rte  0.657040
+8  wnli  0.563380
+GLUE score: 0.7736
+
+corruption_ratio = 0.5, imputation_noise_level = 0.4
+   task     score
+0  cola  0.475808
+1  sst2  0.928899
+2  mrpc  0.784314
+3  stsb  0.855087
+4   qqp  0.892135
+5  mnli  0.823637
+6  qnli  0.894197
+7   rte  0.620939
+8  wnli  0.563380
+GLUE score: 0.7598
+
+corruption_ratio = 0.5, imputation_noise_level = 0.5
+   task     score
+0  cola  0.458212
+1  sst2  0.920872
+2  mrpc  0.754902
+3  stsb  0.838818
+4   qqp  0.887781
+5  mnli  0.819460
+6  qnli  0.897126
+7   rte  0.638989
+8  wnli  0.281690
+GLUE score: 0.7220
+
+corruption_ratio = 0.5, imputation_noise_level = 0.6
+   task     score
+0  cola  0.466586
+1  sst2  0.915138
+2  mrpc  0.745098
+3  stsb  0.826224
+4   qqp  0.882241
+5  mnli  0.808151
+6  qnli  0.887974
+7   rte  0.577617
+8  wnli  0.563380
+GLUE score: 0.7414
+
+corruption_ratio = 0.5, imputation_noise_level = 0.7
+   task     score
+0  cola  0.441292
+1  sst2  0.907110
+2  mrpc  0.720588
+3  stsb  0.822113
+4   qqp  0.876478
+5  mnli  0.805298
+6  qnli  0.888523
+7   rte  0.570397
+8  wnli  0.577465
+GLUE score: 0.7344
+
+corruption_ratio = 0.5, imputation_noise_level = 0.8
+   task     score
+0  cola  0.406553
+1  sst2  0.912844
+2  mrpc  0.686275
+3  stsb  0.790894
+4   qqp  0.870443
+5  mnli  0.797249
+6  qnli  0.878089
+7   rte  0.541516
+8  wnli  0.549296
+GLUE score: 0.7148
+
+corruption_ratio = 0.5, imputation_noise_level = 0.9
+   task     score
+0  cola  0.315005
+1  sst2  0.901376
+2  mrpc  0.580882
+3  stsb  0.780211
+4   qqp  0.865941
+5  mnli  0.786653
+6  qnli  0.875892
+7   rte  0.570397
+8  wnli  0.577465
+GLUE score: 0.6949
+
+corruption_ratio = 0.5, imputation_noise_level = 1.0
+   task     score
+0  cola  0.304494
+1  sst2  0.903670
+2  mrpc  0.720588
+3  stsb  0.693672
+4   qqp  0.858199
+5  mnli  0.779215
+6  qnli  0.861248
+7   rte  0.548736
+8  wnli  0.563380
+GLUE score: 0.6926
+
+corruption_ratio = 0.6, imputation_noise_level = -1.0
+   task     score
+0  cola  0.308524
+1  sst2  0.900229
+2  mrpc  0.718137
+3  stsb  0.692150
+4   qqp  0.847292
+5  mnli  0.765665
+6  qnli  0.831411
+7   rte  0.570397
+8  wnli  0.563380
+GLUE score: 0.6886
+
+corruption_ratio = 0.6, imputation_noise_level = 0.1
+   task     score
+0  cola  0.529477
+1  sst2  0.925459
+2  mrpc  0.852941
+3  stsb  0.881411
+4   qqp  0.905491
+5  mnli  0.835354
+6  qnli  0.911404
+7   rte  0.660650
+8  wnli  0.535211
+GLUE score: 0.7819
+
+corruption_ratio = 0.6, imputation_noise_level = 0.2
+   task     score
+0  cola  0.499220
+1  sst2  0.923165
+2  mrpc  0.789216
+3  stsb  0.874846
+4   qqp  0.899926
+5  mnli  0.827101
+6  qnli  0.907743
+7   rte  0.682310
+8  wnli  0.436620
+GLUE score: 0.7600
+
+corruption_ratio = 0.6, imputation_noise_level = 0.3
+   task     score
+0  cola  0.512703
+1  sst2  0.919725
+2  mrpc  0.772059
+3  stsb  0.850546
+4   qqp  0.895053
+5  mnli  0.825879
+6  qnli  0.903350
+7   rte  0.606498
+8  wnli  0.549296
+GLUE score: 0.7595
+
+corruption_ratio = 0.6, imputation_noise_level = 0.4
+   task     score
+0  cola  0.469245
+1  sst2  0.916284
+2  mrpc  0.779412
+3  stsb  0.843724
+4   qqp  0.887336
+5  mnli  0.815996
+6  qnli  0.898957
+7   rte  0.638989
+8  wnli  0.535211
+GLUE score: 0.7539
+
+corruption_ratio = 0.6, imputation_noise_level = 0.5
+   task     score
+0  cola  0.418551
+1  sst2  0.913991
+2  mrpc  0.747549
+3  stsb  0.832531
+4   qqp  0.882191
+5  mnli  0.811615
+6  qnli  0.889072
+7   rte  0.588448
+8  wnli  0.563380
+GLUE score: 0.7386
+
+corruption_ratio = 0.6, imputation_noise_level = 0.6
+   task     score
+0  cola  0.386026
+1  sst2  0.910550
+2  mrpc  0.730392
+3  stsb  0.826947
+4   qqp  0.877715
+5  mnli  0.801528
+6  qnli  0.884679
+7   rte  0.581227
+8  wnli  0.563380
+GLUE score: 0.7292
+
+corruption_ratio = 0.6, imputation_noise_level = 0.7
+   task     score
+0  cola  0.334632
+1  sst2  0.913991
+2  mrpc  0.700980
+3  stsb  0.824470
+4   qqp  0.868142
+5  mnli  0.789812
+6  qnli  0.869120
+7   rte  0.588448
+8  wnli  0.577465
+GLUE score: 0.7186
+
+corruption_ratio = 0.6, imputation_noise_level = 0.8
+   task     score
+0  cola  0.323328
+1  sst2  0.905963
+2  mrpc  0.693627
+3  stsb  0.766720
+4   qqp  0.862256
+5  mnli  0.779827
+6  qnli  0.861981
+7   rte  0.570397
+8  wnli  0.563380
+GLUE score: 0.7031
+
+corruption_ratio = 0.6, imputation_noise_level = 0.9
+   task     score
+0  cola  0.288412
+1  sst2  0.912844
+2  mrpc  0.676471
+3  stsb  0.701234
+4   qqp  0.849765
+5  mnli  0.762812
+6  qnli  0.856123
+7   rte  0.527076
+8  wnli  0.563380
+GLUE score: 0.6820
+
+corruption_ratio = 0.6, imputation_noise_level = 1.0
+   task     score
+0  cola  0.232337
+1  sst2  0.892202
+2  mrpc  0.703431
+3  stsb  0.570968
+4   qqp  0.841999
+5  mnli  0.741824
+6  qnli  0.826469
+7   rte  0.555957
+8  wnli  0.563380
+GLUE score: 0.6587
+
+corruption_ratio = 0.7, imputation_noise_level = -1.0
+   task     score
+0  cola  0.276059
+1  sst2  0.908257
+2  mrpc  0.691176
+3  stsb  0.668147
+4   qqp  0.806555
+5  mnli  0.730209
+6  qnli  0.741900
+7   rte  0.559567
+8  wnli  0.563380
+GLUE score: 0.6606
+
+corruption_ratio = 0.7, imputation_noise_level = 0.1
+   task     score
+0  cola  0.552107
+1  sst2  0.934633
+2  mrpc  0.845588
+3  stsb  0.883990
+4   qqp  0.904749
+5  mnli  0.835048
+6  qnli  0.908292
+7   rte  0.646209
+8  wnli  0.380282
+GLUE score: 0.7657
+
+corruption_ratio = 0.7, imputation_noise_level = 0.2
+   task     score
+0  cola  0.499255
+1  sst2  0.917431
+2  mrpc  0.796569
+3  stsb  0.878229
+4   qqp  0.896290
+5  mnli  0.831279
+6  qnli  0.904997
+7   rte  0.631769
+8  wnli  0.563380
+GLUE score: 0.7688
+
+corruption_ratio = 0.7, imputation_noise_level = 0.3
+   task     score
+0  cola  0.460998
+1  sst2  0.931193
+2  mrpc  0.786765
+3  stsb  0.852281
+4   qqp  0.889389
+5  mnli  0.822211
+6  qnli  0.894746
+7   rte  0.613718
+8  wnli  0.549296
+GLUE score: 0.7556
+
+corruption_ratio = 0.7, imputation_noise_level = 0.4
+   task     score
+0  cola  0.445949
+1  sst2  0.920872
+2  mrpc  0.727941
+3  stsb  0.830354
+4   qqp  0.884690
+5  mnli  0.813143
+6  qnli  0.893831
+7   rte  0.617329
+8  wnli  0.563380
+GLUE score: 0.7442
+
+corruption_ratio = 0.7, imputation_noise_level = 0.5
+0  cola  0.455246
+1  sst2  0.917431
+2  mrpc  0.745098
+3  stsb  0.799520
+4   qqp  0.876329
+5  mnli  0.804483
+6  qnli  0.885960
+7   rte  0.570397
+8  wnli  0.577465
+GLUE score: 0.7369
+
+corruption_ratio = 0.7, imputation_noise_level = 0.6
+   task     score
+0  cola  0.401543
+1  sst2  0.911697
+2  mrpc  0.705882
+3  stsb  0.798513
+4   qqp  0.868736
+5  mnli  0.790728
+6  qnli  0.877174
+7   rte  0.563177
+8  wnli  0.563380
+GLUE score: 0.7201
+
+corruption_ratio = 0.7, imputation_noise_level = 0.7
+   task     score
+0  cola  0.357428
+1  sst2  0.912844
+2  mrpc  0.688725
+3  stsb  0.767326
+4   qqp  0.859683
+5  mnli  0.775446
+6  qnli  0.862896
+7   rte  0.563177
+8  wnli  0.563380
+GLUE score: 0.7057
+
+corruption_ratio = 0.7, imputation_noise_level = 0.8
+   task     score
+0  cola  0.261056
+1  sst2  0.895642
+2  mrpc  0.691176
+3  stsb  0.644857
+4   qqp  0.848800
+5  mnli  0.761997
+6  qnli  0.843310
+7   rte  0.584838
+8  wnli  0.563380
+GLUE score: 0.6772
+
+corruption_ratio = 0.7, imputation_noise_level = 0.9
+   task     score
+0  cola  0.236318
+1  sst2  0.900229
+2  mrpc  0.696078
+3  stsb  0.614641
+4   qqp  0.836112
+5  mnli  0.741620
+6  qnli  0.805784
+7   rte  0.570397
+8  wnli  0.563380
+GLUE score: 0.6627
+
+corruption_ratio = 0.7, imputation_noise_level = 1.0
+   task     score
+0  cola  0.150371
+1  sst2  0.885321
+2  mrpc  0.708333
+3  stsb  0.194478
+4   qqp  0.815953
+5  mnli  0.711156
+6  qnli  0.738788
+7   rte  0.534296
+8  wnli  0.563380
+GLUE score: 0.5891
+
+
+corruption_ratio = 0.8, imputation_noise_level = -1.0
+   task     score
+0  cola -0.007169
+1  sst2  0.909404
+2  mrpc  0.683824
+3  stsb  0.570372
+4   qqp  0.738659
+5  mnli  0.648497
+6  qnli  0.662640
+7   rte  0.527076
+8  wnli  0.563380
+GLUE score: 0.5885
+
+corruption_ratio = 0.8, imputation_noise_level = 0.1
+   task     score
+0  cola  0.521076
+1  sst2  0.926606
+2  mrpc  0.838235
+3  stsb  0.883916
+4   qqp  0.900223
+5  mnli  0.833011
+6  qnli  0.906462
+7   rte  0.638989
+8  wnli  0.492958
+GLUE score: 0.7713
+
+corruption_ratio = 0.8, imputation_noise_level = 0.2
+   task     score
+0  cola  0.480612
+1  sst2  0.923165
+2  mrpc  0.828431
+3  stsb  0.857791
+4   qqp  0.895573
+5  mnli  0.825675
+6  qnli  0.905180
+7   rte  0.646209
+8  wnli  0.521127
+GLUE score: 0.7649
+
+corruption_ratio = 0.8, imputation_noise_level = 0.3
+   task     score
+0  cola  0.471959
+1  sst2  0.919725
+2  mrpc  0.813725
+3  stsb  0.841635
+4   qqp  0.888152
+5  mnli  0.817932
+6  qnli  0.898407
+7   rte  0.628159
+8  wnli  0.577465
+GLUE score: 0.7619
+
+corruption_ratio = 0.8, imputation_noise_level = 0.4
+   task     score
+0  cola  0.417168
+1  sst2  0.909404
+2  mrpc  0.737745
+3  stsb  0.828279
+4   qqp  0.881499
+5  mnli  0.809068
+6  qnli  0.885411
+7   rte  0.602888
+8  wnli  0.563380
+GLUE score: 0.7372
+
+corruption_ratio = 0.8, imputation_noise_level = 0.5
+   task     score
+0  cola  0.334632
+1  sst2  0.903670
+2  mrpc  0.708333
+3  stsb  0.776218
+4   qqp  0.870096
+5  mnli  0.794294
+6  qnli  0.879370
+7   rte  0.595668
+8  wnli  0.563380
+GLUE score: 0.7140
+
+corruption_ratio = 0.8, imputation_noise_level = 0.6
+   task     score
+0  cola  0.351343
+1  sst2  0.909404
+2  mrpc  0.715686
+3  stsb  0.769955
+4   qqp  0.861044
+5  mnli  0.774936
+6  qnli  0.865275
+7   rte  0.548736
+8  wnli  0.563380
+GLUE score: 0.7066
+
+corruption_ratio = 0.8, imputation_noise_level = 0.7
+   task     score
+0  cola  0.279113
+1  sst2  0.911697
+2  mrpc  0.681373
+3  stsb  0.667641
+4   qqp  0.846797
+5  mnli  0.762710
+6  qnli  0.847886
+7   rte  0.559567
+8  wnli  0.563380
+GLUE score: 0.6800
+
+corruption_ratio = 0.8, imputation_noise_level = 0.8
+   task     score
+0  cola  0.176324
+1  sst2  0.888761
+2  mrpc  0.696078
+3  stsb  0.413272
+4   qqp  0.829038
+5  mnli  0.736526
+6  qnli  0.771554
+7   rte  0.606498
+8  wnli  0.563380
+GLUE score: 0.6313
+
+corruption_ratio = 0.8, imputation_noise_level = 0.9
+   task     score
+0  cola  0.136156
+1  sst2  0.892202
+2  mrpc  0.404412
+3  stsb  0.264852
+4   qqp  0.801608
+5  mnli  0.697504
+6  qnli  0.711331
+7   rte  0.530686
+8  wnli  0.563380
+GLUE score: 0.5558
+
+corruption_ratio = 0.8, imputation_noise_level = 1.0
+   task     score
+0  cola  0.200123
+1  sst2  0.884174
+2  mrpc  0.316176
+3  stsb  0.437288
+4   qqp  0.757433
+5  mnli  0.646052
+6  qnli  0.594362
+7   rte  0.541516
+8  wnli  0.563380
+GLUE score: 0.5489
+
+
+corruption_ratio = 0.9, imputation_noise_level = -1.0
+   task     score
+0  cola  0.000000
+1  sst2  0.850917
+2  mrpc  0.683824
+3  stsb  0.328928
+4   qqp  0.667425
+5  mnli  0.558023
+6  qnli  0.550796
+7   rte  0.516245
+8  wnli  0.563380
+GLUE score: 0.5244
+
+corruption_ratio = 0.9, imputation_noise_level = 0.1
+   task     score
+0  cola  0.498415
+1  sst2  0.919725
+2  mrpc  0.830882
+3  stsb  0.878174
+4   qqp  0.900074
+5  mnli  0.833113
+6  qnli  0.910489
+7   rte  0.649819
+8  wnli  0.450704
+GLUE score: 0.7635
+
+corruption_ratio = 0.9, imputation_noise_level = 0.2
+   task     score
+0  cola  0.494044
+1  sst2  0.913991
+2  mrpc  0.769608
+3  stsb  0.868015
+4   qqp  0.893124
+5  mnli  0.829852
+6  qnli  0.901153
+7   rte  0.653430
+8  wnli  0.563380
+GLUE score: 0.7652
+
+corruption_ratio = 0.9, imputation_noise_level = 0.3
+   task     score
+0  cola  0.432629
+1  sst2  0.911697
+2  mrpc  0.742647
+3  stsb  0.830040
+4   qqp  0.885160
+5  mnli  0.815792
+6  qnli  0.896760
+7   rte  0.581227
+8  wnli  0.549296
+GLUE score: 0.7384
+
+corruption_ratio = 0.9, imputation_noise_level = 0.4
+   task     score
+0  cola  0.438578
+1  sst2  0.908257
+2  mrpc  0.740196
+3  stsb  0.822353
+4   qqp  0.876057
+5  mnli  0.799592
+6  qnli  0.885777
+7   rte  0.555957
+8  wnli  0.380282
+GLUE score: 0.7119
+
+corruption_ratio = 0.9, imputation_noise_level = 0.5
+   task     score
+0  cola  0.341587
+1  sst2  0.907110
+2  mrpc  0.705882
+3  stsb  0.769186
+4   qqp  0.862503
+5  mnli  0.786246
+6  qnli  0.874062
+7   rte  0.552347
+8  wnli  0.563380
+GLUE score: 0.7069
+
+corruption_ratio = 0.9, imputation_noise_level = 0.6
+   task     score
+0  cola  0.260169
+1  sst2  0.908257
+2  mrpc  0.526961
+3  stsb  0.756899
+4   qqp  0.852535
+5  mnli  0.761691
+6  qnli  0.855025
+7   rte  0.566787
+8  wnli  0.577465
+GLUE score: 0.6740
+
+corruption_ratio = 0.9, imputation_noise_level = 0.7
+   task     score
+0  cola  0.242874
+1  sst2  0.901376
+2  mrpc  0.517157
+3  stsb  0.597318
+4   qqp  0.836656
+5  mnli  0.739990
+6  qnli  0.808347
+7   rte  0.534296
+8  wnli  0.563380
+GLUE score: 0.6379
+
+corruption_ratio = 0.9, imputation_noise_level = 0.8
+   task     score
+0  cola  0.058937
+1  sst2  0.897936
+2  mrpc  0.705882
+3  stsb  0.741149
+4   qqp  0.808335
+5  mnli  0.701274
+6  qnli  0.714260
+7   rte  0.487365
+8  wnli  0.563380
+GLUE score: 0.6309
+
+corruption_ratio = 0.9, imputation_noise_level = 0.9
+   task     score
+0  cola  0.170591
+1  sst2  0.879587
+2  mrpc  0.691176
+3  stsb  0.424143
+4   qqp  0.748949
+5  mnli  0.596943
+6  qnli  0.619989
+7   rte  0.527076
+8  wnli  0.563380
+GLUE score: 0.5802
+
+corruption_ratio = 0.9, imputation_noise_level = 1.0
+   task     score
+0  cola -0.098469
+1  sst2  0.778670
+2  mrpc  0.686275
+3  stsb  0.054813
+4   qqp  0.727010
+5  mnli  0.519103
+6  qnli  0.535420
+7   rte  0.545126
+8  wnli  0.563380
+GLUE score: 0.4790
+
+
+
+corruption_ratio = 1.0, imputation_noise_level = 0.1
+   task     score
+0  cola  0.491202
+1  sst2  0.923165
+2  mrpc  0.828431
+3  stsb  0.873538
+4   qqp  0.901212
+5  mnli  0.834030
+6  qnli  0.907926
+7   rte  0.664260
+8  wnli  0.507042
+GLUE score: 0.7701
+
+corruption_ratio = 1.0, imputation_noise_level = 0.2
+   task     score
+0  cola  0.505270
+1  sst2  0.918578
+2  mrpc  0.781863
+3  stsb  0.859188
+4   qqp  0.890749
+5  mnli  0.827509
+6  qnli  0.900970
+7   rte  0.628159
+8  wnli  0.380282
+GLUE score: 0.7436
+
+corruption_ratio = 1.0, imputation_noise_level = 0.3
+   task     score
+0  cola  0.345601
+1  sst2  0.911697
+2  mrpc  0.713235
+3  stsb  0.822023
+4   qqp  0.882538
+5  mnli  0.810800
+6  qnli  0.890719
+7   rte  0.631769
+8  wnli  0.563380
+GLUE score: 0.7302
+
+corruption_ratio = 1.0, imputation_noise_level = 0.4
+   task     score
+0  cola  0.348903
+1  sst2  0.910550
+2  mrpc  0.735294
+3  stsb  0.764863
+4   qqp  0.871383
+5  mnli  0.798370
+6  qnli  0.874977
+7   rte  0.577617
+8  wnli  0.563380
+GLUE score: 0.7161
+
+corruption_ratio = 1.0, imputation_noise_level = 0.5
+   task     score
+0  cola  0.315253
+1  sst2  0.912844
+2  mrpc  0.696078
+3  stsb  0.727962
+4   qqp  0.859857
+5  mnli  0.778299
+6  qnli  0.861614
+7   rte  0.570397
+8  wnli  0.563380
+GLUE score: 0.6984
+
+corruption_ratio = 1.0, imputation_noise_level = 0.6
+   task     score
+0  cola  0.249620
+1  sst2  0.894495
+2  mrpc  0.578431
+3  stsb  0.458884
+4   qqp  0.840811
+5  mnli  0.752522
+6  qnli  0.824272
+7   rte  0.570397
+8  wnli  0.577465
+GLUE score: 0.6385
+
+corruption_ratio = 1.0, imputation_noise_level = 0.7
+   task     score
+0  cola  0.115815
+1  sst2  0.902523
+2  mrpc  0.394608
+3  stsb  0.679066
+4   qqp  0.819416
+5  mnli  0.708406
+6  qnli  0.785100
+7   rte  0.534296
+8  wnli  0.563380
+GLUE score: 0.6114
+
+corruption_ratio = 1.0, imputation_noise_level = 0.8
+   task     score
+0  cola  0.133560
+1  sst2  0.876147
+2  mrpc  0.688725
+3  stsb  0.328098
+4   qqp  0.765743
+5  mnli  0.631890
+6  qnli  0.584477
+7   rte  0.545126
+8  wnli  0.563380
+GLUE score: 0.5686
+
+corruption_ratio = 1.0, imputation_noise_level = 0.9
+   task     score
+0  cola  0.005874
+1  sst2  0.813073
+2  mrpc  0.686275
+3  stsb  0.331062
+4   qqp  0.669503
+5  mnli  0.548752
+6  qnli  0.620721
+7   rte  0.548736
+8  wnli  0.563380
+GLUE score: 0.5319

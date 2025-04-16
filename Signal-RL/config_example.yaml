@@ -1,0 +1,57 @@
+# Configurations
+## Visualization and save settings
+render_mode: rgb_array  # Render mode; Choices: 'human', 'rgb_array'; default value: 'rbg_array'
+verbose: true  # whether to print logs; default value: True
+plot_figure: false  # whether to plot; default value: False
+save_path: agent.pth  # Path to save the agent; default value: agent.pth
+
+## Agent learning algorithm settings
+AgentClassName: GradientDoubleDQN  # default value: GradientDoubleDQN
+# Choices: SemiGradientDQN, GradientDQN, GradientDoubleDQN, DuelingDQN, DifferentialSemiGradientDQN, DifferentialGradientDQN, DifferentialSemiGradientSARSA, PPO, SAC
+NeuralNetClassName: QnetLnShallow  # Qnet class name; default value: QnetLnShallow
+hidden_dims: [256, 48]  # Hidden layer dimensions; default value: [256， 48] for input size ~ 1024
+num_episodes: 50  # Number of episodes to train; one episode is 1 hour by default; default value: 50
+num_parallel_envs: 20  # Number of parallel environments running; default value: 20
+batch_size: 256  # Batch size for OFF-POLICY algorithms; default value: 128; Note: for on-policy algorithms, the actual batch size is the num_parallel_envs
+lr_initial: 1.0e-3  # Initial learning rate; default value: 1e-3
+lr_final: 1.0e-4  # Final learning rate; default value: 1e-4
+lr_scheduler_name: LRSchedulerDynamic  # Name of the function used to schedule learning rate; default value: LRSchedulerDynamic
+beta: 0.0001  # beta for DIFFERENTIAL algorithms for updating avg reward; default value: 0.001
+epsilon_initial: 1.0  # Initial epsilon value for exploration; default value: 1.0
+epsilon_final: 0.01  # Final epsilon value for exploration; default value: 0.01
+epsilon_scheduler_name: get_epsilon_dynamic  # Name of the function used to schedule epsilon; default value: get_epsilon_dynamic
+gamma: 0.98  # Discount factor; NOT for DIFFERENTIAL methods; default value: 0.98
+target_update: 10  # Target network update frequency; Only for OFF-POLICY methods; default value: 10
+buffer_size: 10000  # Buffer size; Only for OFF-POLICY methods; default value: 10000
+minimum_size: 1000  # Minimum buffer size before training starts; Only for OFF-POLICY methods; default value: 1000
+
+## Environment settings
+env_name: junction_400  # Choices: 'junction_200', 'junction_400'; default value: 'junction_400'
+reward_type: waiting_time  # reward type; Choices: 'waiting_time', 'occupancy', 'throughput'; default value: 'waiting_time'
+length_per_cell: 5  # Length of each cell in the environment; default value: 5m
+env_step_duration: 6  # Duration of each step in the environment; at least 6 seconds; default value: 6s
+yellow: 3  # yellow time; default value: 3s
+min_green: 6  # minimum green time; default value: 6s
+max_green: 60  # maximum green time; default value: 60s
+time_limit: 3600  # time limit for each episode; default value: 3600s
+speed_threshold: 0.3  # sped threshold for waiting in queue; default value: 0.3 m/s
+
+## Corruption settings
+corruption_mode: 'none'  # choices=["none", "vehicle_miss", "region_mask"]; default value: "none"
+# Note: corruptions will affect both the state (the occupancy, more exactly) and the reward (waiting time, throughput, or occupancy based reward)!
+# - "none": no corruption
+# - "vehicle_miss": certain fraction of the vehicles are not detected; veh-based corruption;
+# - "insert_noise": randomly corrupts the state by flipping a fraction of the cell state;
+# - "region_mask": certain region of the map are masked out (in this paper, we go from far-side of the incoming lanes to near-side)
+corruption_ratio: 0.1
+imputation_mode: 'none' # choices=["none", "insert_noise", "context_fill", "moving_average", "denosing_autoencoder"]; defalt: "none"
+# - 'none': no imputation;
+# - 'context_mode': imputation by the median of the context cells;
+# - 'moving_average': apply a moving average filter over time or across lanes to reduce random noise in cell states;
+# - 'denosing_autoencoder': apply a denoising autoencoder to impute the noisy cell states;
+
+## Experiment, Test and Debug settings
+run_mode: train  # Choices: 'train', 'test'; default value: 'train'
+num_test_episodes: 20
+max_num_epochs: 10  # the maximum number of epochs to train on fixed dataset; default value: 10
+delta_improvement: 8  # delta param for early stop; here approx 1 std deviation;
