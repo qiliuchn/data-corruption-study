@@ -5,7 +5,6 @@ This repository contains the code and data used in the paper *Navigating Data Co
 Contributors:
 Qi Liu and Wanjing Ma
 
-## Overview
 ### NLP-SL experiment
 Folder ```NLP-SL``` contains the code and data for the NLP-SL experiment.
 
