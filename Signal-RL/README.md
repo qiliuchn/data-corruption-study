@@ -1,7 +1,7 @@
 # Isolated intersection signal RL algorithms
 Author: Qi Liu
 Affiliation: Tongji University
-Date: 2023-11-28
+Date: 2024-11-28
 
 ## Files
 - environment.py : environment class, implementing the gym interface
