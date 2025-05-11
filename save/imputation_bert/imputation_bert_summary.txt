@@ -1,0 +1,85 @@
+# Note: subset_ratios have been re-adjusted!
+
+corruption_ratio = 0.1, imputation_mode = 'none'
+  task     score
+0  cola  0.395761
+1  sst2  0.901376
+2  mrpc  0.637255
+3  stsb  0.827937
+4   qqp  0.849641
+5  mnli  0.776668
+6  qnli  0.847703
+7   rte  0.563177
+8  wnli  0.549296
+GLUE score: 0.7054
+
+corruption_ratio = 0.1, imputation_mode = 'bert'
+   task     score
+0  cola  0.3700
+1  sst2  0.9002
+2  mrpc  0.5809
+3  stsb  0.8264
+4   qqp  0.8477
+
+corruption_ratio = 0.2, imputation_mode = 'none'
+   task     score
+0  cola  0.385399
+1  sst2  0.887615
+2  mrpc  0.522059
+3  stsb  0.759275
+4   qqp  0.834751
+5  mnli  0.758227
+6  qnli  0.840930
+7   rte  0.541516
+8  wnli  0.577465
+GLUE score: 0.6786
+
+corruption_ratio = 0.2, imputation_mode = 'bert'
+   task     score
+0  cola  0.3790
+1  sst2  0.8979
+2  mrpc  0.5417
+3  stsb  0.8101
+4   qqp  0.8390
+
+corruption_ratio = 0.3, imputation_mode = 'none'
+   task     score
+0  cola  0.237215
+1  sst2  0.896789
+2  mrpc  0.323529
+3  stsb  0.646389
+4   qqp  0.815681
+5  mnli  0.736322
+6  qnli  0.808530
+7   rte  0.541516
+8  wnli  0.563380
+GLUE score: 0.6188
+
+corruption_ratio = 0.3, imputation_mode = 'bert'
+   task     score
+0  cola  0.1024
+1  sst2  0.8922
+2  mrpc  0.5686
+3  stsb  0.7503
+4   qqp  0.8229
+
+corruption_ratio = 0.4, imputation_mode = 'none'
+   task     score
+0  cola  0.000000
+1  sst2  0.891055
+2  mrpc  0.634804
+3  stsb  0.516948
+4   qqp  0.802028
+5  mnli  0.708813
+6  qnli  0.807066
+7   rte  0.527076
+8  wnli  0.563380
+GLUE score: 0.6057
+
+corruption_ratio = 0.4, imputation_mode = 'bert'
+   task     score
+0  cola  0.0094
+1  sst2  0.8784
+2  mrpc  0.6814
+3  stsb  0.5838
+4   qqp  0.7979

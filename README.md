@@ -26,7 +26,9 @@ Check ```./Signal-RL/README.md``` for more details.
 ### Experiment results
 Results of the experiments are saved at ```./save/```.
  - ```./save/the_effect_of_data_missing/``` contains the results of Sec 3. Learning with corrupted data; 
- - ```./save/imputation/``` contains the results of Sec 4. Effectiveness of Data Imputation;
+ - ```./save/imputation/``` contains the results of Sec 4. Effectiveness of Data Imputation; imputation method = "insert noise";
+ - ```./save/imputation_wordvec/``` contains the results of Sec 4. Effectiveness of Data Imputation; imputation method = "wordvec";
+ - ```./save/imputation_bert/``` contains the results of Sec 4. Effectiveness of Data Imputation; imputation method = "bert";
  - ```./save/can_enlarged_dataset_compensate/``` contains the results of Sec 5. Effectiveness of Enlarging Dataset.
 
 

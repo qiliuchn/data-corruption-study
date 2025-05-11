@@ -1,0 +1,129 @@
+corruption_ratio = 0.1, imputation_mode = 'none'
+   task     score
+0  cola  0.526242
+1  sst2  0.919725
+2  mrpc  0.833333
+3  stsb  0.880208
+4   qqp  0.904378
+5  mnli  0.839226
+6  qnli  0.911221
+7   rte  0.689531
+8  wnli  0.563380
+GLUE score: 0.7852
+
+corruption_ratio = 0.1, imputation_mode = 'wordvec'
+   task     score
+0  cola  0.488724
+1  sst2  0.927752
+2  mrpc  0.848039
+3  stsb  0.877042
+4   qqp  0.900470
+5  mnli  0.831686
+6  qnli  0.908109
+7   rte  0.675090
+8  wnli  0.563380
+GLUE score: 0.7800
+
+corruption_ratio = 0.2, imputation_mode = 'none'
+   task     score
+0  cola  0.494477
+1  sst2  0.923165
+2  mrpc  0.835784
+3  stsb  0.873698
+4   qqp  0.896636
+5  mnli  0.830871
+6  qnli  0.903533
+7   rte  0.638989
+8  wnli  0.535211
+GLUE score: 0.7703
+
+corruption_ratio = 0.2, imputation_mode = 'wordvec'
+   task     score
+0  cola  0.440964
+1  sst2  0.919725
+2  mrpc  0.808824
+3  stsb  0.874228
+4   qqp  0.891862
+5  mnli  0.825267
+6  qnli  0.901153
+7   rte  0.638989
+8  wnli  0.295775
+GLUE score: 0.7330
+
+corruption_ratio = 0.3, imputation_mode = 'none'
+   task     score
+0  cola  0.469402
+1  sst2  0.907110
+2  mrpc  0.772059
+3  stsb  0.849589
+4   qqp  0.886025
+5  mnli  0.823943
+6  qnli  0.898407
+7   rte  0.653430
+8  wnli  0.521127
+GLUE score: 0.7535
+
+corruption_ratio = 0.3, imputation_mode = 'wordvec'
+   task     score
+0  cola  0.351889
+1  sst2  0.918578
+2  mrpc  0.786765
+3  stsb  0.825652
+4   qqp  0.879495
+5  mnli  0.811004
+6  qnli  0.891452
+7   rte  0.613718
+8  wnli  0.549296
+GLUE score: 0.7364
+
+corruption_ratio = 0.4, imputation_mode = 'none'
+   task     score
+0  cola  0.460924
+1  sst2  0.908257
+2  mrpc  0.754902
+3  stsb  0.820354
+4   qqp  0.871135
+5  mnli  0.809068
+6  qnli  0.883031
+7   rte  0.610108
+8  wnli  0.563380
+GLUE score: 0.7424
+
+corruption_ratio = 0.4, imputation_mode = 'wordvec'
+   task     score
+0  cola  0.295018
+1  sst2  0.910550
+2  mrpc  0.406863
+3  stsb  0.834331
+4   qqp  0.860376
+5  mnli  0.796128
+6  qnli  0.856855
+7   rte  0.592058
+8  wnli  0.563380
+GLUE score: 0.6795
+
+corruption_ratio = 0.5, imputation_mode = 'none'
+   task     score
+0  cola  0.430751
+1  sst2  0.916284
+2  mrpc  0.740196
+3  stsb  0.815226
+4   qqp  0.866164
+5  mnli  0.789710
+6  qnli  0.869486
+7   rte  0.530686
+8  wnli  0.563380
+GLUE score: 0.7247
+
+corruption_ratio = 0.5, imputation_mode = 'wordvec'
+   task     score
+0  cola  0.240636
+1  sst2  0.908257
+2  mrpc  0.404412
+3  stsb  0.641698
+4   qqp  0.844942
+5  mnli  0.773714
+6  qnli  0.814937
+7   rte  0.541516
+8  wnli  0.563380
+GLUE score: 0.6371
