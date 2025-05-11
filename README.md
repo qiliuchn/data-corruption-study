@@ -37,11 +37,12 @@ See the following ipython files for results visualization. These scripts will us
 
 Don't change the name of the folders and files in ```./save/```.
 
- - ```results_analysis_part1.ipynb```
+ - ```results_analysis_part1 (NLP-SL).ipynb``` and ```results_analysis_part1 (Signal-RL).ipynb```
 ![Data corruption ratio vs model performance](assets/data_missing_curve_fit.png "Data corruption ratio vs model performance")
 
- - ```results_analysis_part2.ipynb```
+ - ```results_analysis_part2 (NLP-SL).ipynb``` and ```results_analysis_part2 (Signal-RL).ipynb```
 ![Imputation advantage heatmap](assets/imputation_advantage_heatmaps.png "Imputation advantage heatmap")
 
- - ```results_analysis_part3.ipynb```
+ - ```results_analysis_part3 (NLP-SL).ipynb``` and ```results_analysis_part3 (Signal-RL).ipynb```
 ![enlarging dataset](assets/enlarging_dataset.png "enlarging dataset")
+
