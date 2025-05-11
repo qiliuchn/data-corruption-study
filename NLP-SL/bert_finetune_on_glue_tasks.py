@@ -183,7 +183,8 @@ def preprocess_function_word_level(task, examples, tokenizer, max_length, corrup
                 if corruption == 'miss':
                     words[i] = tokenizer.unk_token  # Replace with [UNK]
                     if imputation == 'bert':
-                        words[i] = tokenizer.mask_token  # For BERT imputation, use [MASK]; otherwise use [UNK], later for imputation, BERT model will predict [UNK]!!
+                        words[i] = tokenizer.mask_token  # For BERT imputation, use [MASK]; otherwise use [UNK];
+                        # because, for imputation later, BERT model will likely predict [UNK] for [UNK];
                     # Impute with noise if imputation mode is 'insert_noise'
                     if imputation == 'insert_noise':
                         if random.random() < imputation_noise:

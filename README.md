@@ -1,33 +1,45 @@
 # Data corruption study
 
-This repository contains the code and data used in the paper *Navigating Data Corruption in Machine Learning: Balancing Quality, Quantity, and Imputation Strategies*.
+## Introduction
+This repository contains the code and results from the paper *Navigating Data Corruption in Machine Learning: Balancing Quality, Quantity, and Imputation Strategies*.
 
 Contributors:
 Qi Liu and Wanjing Ma
 
+## How to run the experiments
 ### NLP-SL experiment
-Folder ```NLP-SL``` contains the code and data for the NLP-SL experiment.
+Folder ```./NLP-SL/``` contains the code and running instructions for the NLP-SL experiment.
 
-```bert_pretrain_using_wikitext_and_bookcorpus.ipynb``` is for BERT pretraining.
-
-```bert_finetune_on_glue_tasks.py``` is for BERT finetuning on GLUE tasks.
+Check ```./NLP-SL/README.md``` for more details.
 
 ![NLP-SL](assets/data_corruption_effect_nlp_details.png "GLUE tasks")
 
 
 ### Signal-RL experiment
-Folder ```Singnal-RL``` contains the code and data for the Signal-RL experiment.
+Folder ```./Singnal-RL/``` contains the code and running instructions the Signal-RL experiment.
+
+Check ```./Signal-RL/README.md``` for more details.
 
 ![Signal-RL](assets/sumo_illustration.png "SUMO env illustration")
 
-### results visualization
-See the following files for results visualization:
 
-```results_analysis_part1.ipynb```
+### Experiment results
+Results of the experiments are saved at ```./save/```.
+ - ```./save/the_effect_of_data_missing/``` contains the results of Sec 3. Learning with corrupted data; 
+ - ```./save/imputation/``` contains the results of Sec 4. Effectiveness of Data Imputation;
+ - ```./save/can_enlarged_dataset_compensate/``` contains the results of Sec 5. Effectiveness of Enlarging Dataset.
+
+
+## Visualization
+See the following ipython files for results visualization. These scripts will use the results in ```./save/``` to generate figures.
+
+Don't change the name of the folders and files in ```./save/```.
+
+ - ```results_analysis_part1.ipynb```
 ![Data corruption ratio vs model performance](assets/data_missing_curve_fit.png "Data corruption ratio vs model performance")
 
-```results_analysis_part2.ipynb```
+ - ```results_analysis_part2.ipynb```
 ![Imputation advantage heatmap](assets/imputation_advantage_heatmaps.png "Imputation advantage heatmap")
 
-```results_analysis_part3.ipynb```
+ - ```results_analysis_part3.ipynb```
 ![enlarging dataset](assets/enlarging_dataset.png "enlarging dataset")
