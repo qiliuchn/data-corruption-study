@@ -1,10 +1,11 @@
 # Data corruption study
 
 ## Introduction
-This repository contains the code and results from the paper *Navigating Data Corruption in Machine Learning: Balancing Quality, Quantity, and Imputation Strategies*.
+This repository contains the code and results from the paper:
+> Liu, Q. and Ma, W., 2025. Navigating Data Corruption in Machine Learning: Balancing Quality, Quantity, and Imputation Strategies. Future Internet, 17(6), p.241.
 
 Contributors:
-Qi Liu and Wanjing Ma
+Qi Liu (liuqi_tj@hotmail.com) and Wanjing Ma
 
 ## How to run the experiments
 ### NLP-SL experiment
